@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:id="@+id/entername"
+        android:textAlignment="center"
+        android:textColor="#000">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginTop="10sp"
+        android:hint="eg:John"
+        android:textSize="20sp"
+        android:id="@+id/NameText">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_margin="20sp"
+        android:onClick="enterdata">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view data"
+        android:id="@+id/viewdata"
+        android:layout_margin="20sp"
+        android:onClick="Viewdata"
+        >
+
+    </Button>
+</LinearLayout>
